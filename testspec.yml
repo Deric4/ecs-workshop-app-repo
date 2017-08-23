@@ -1,0 +1,12 @@
+version: 0.2
+
+phases:
+  pre_build:
+    commands:
+      - echo Test setup on `date`
+  build:
+    commands:
+      - echo Test started on `date`
+  post_build:
+    commands:
+      - echo Test completed on `date`
