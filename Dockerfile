@@ -1,4 +1,4 @@
-FROM nginx
+FROM nginx:1.10
 COPY index.html /usr/share/nginx/html/
 COPY mysite.template /etc/nginx/conf.d/
 # Add a dummy test path to simplify local testing
